@@ -391,7 +391,7 @@ img[usemap], map > area, map > area:active, map > area:focus {
 
 /********************************** @mediaqueries **********************************/
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 
 	.maps .map-wrapper-outer{
 		width: 100%;
