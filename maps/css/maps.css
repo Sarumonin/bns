@@ -8,7 +8,7 @@ body{
 
 ul{
 	list-style: none;
-    margin: 0;
+	margin: 0;
 	padding: 0;
 }
 
@@ -26,12 +26,12 @@ img[usemap], map > area, map > area:active, map > area:focus {
 }
 
 .navbar-default .navbar-text {
-    color: #333;
+	color: #333;
 }
 
 .navbar-text {
-    font-weight: bold;
-    margin-left: 10px;
+	font-weight: bold;
+	margin-left: 10px;
 }
 
 /*********************************************************
@@ -41,22 +41,22 @@ img[usemap], map > area, map > area:active, map > area:focus {
 .loading{
 	top: 45%;
   	left: 25%;
-    width: 50%;
-    position: absolute;
-    z-index: 11;
+	width: 50%;
+	position: absolute;
+	z-index: 11;
 }
 
 .loading p{
-    color: #273b54;
-    font-size: 16px;
-    text-align: center;
-    text-shadow: none;
+	color: #273b54;
+	font-size: 16px;
+	text-align: center;
+	text-shadow: none;
 }
 
 .lyn-anim{
-    width : 150px;
-    height : 64px;
-    background:url(../maps/img/lyn-loading.png) no-repeat;
+	width : 150px;
+	height : 64px;
+	background:url(../img/lyn-loading.png) no-repeat;
 	-webkit-transition: transform 1s ease-in-out;
 	transition: transform 1s ease-in-out;
 	-webkit-transform: translate(-125px);
@@ -66,17 +66,17 @@ img[usemap], map > area, map > area:active, map > area:focus {
 
 .loading .progress {
 
-    background: #4f6793;
-    height: 10px;
+	background: #4f6793;
+	height: 10px;
 }
 .loading .bar {
-    background: #273b54;
-    width: 0;
-    height: 10px;
-    padding: 0;
-    margin: 0;
-    float: left;
-    clear: none;
+	background: #273b54;
+	width: 0;
+	height: 10px;
+	padding: 0;
+	margin: 0;
+	float: left;
+	clear: none;
 	-webkit-transition: width 1s ease-in-out;
 	transition: width 1s ease-in-out;
 }
@@ -131,22 +131,22 @@ img[usemap], map > area, map > area:active, map > area:focus {
 }
 
 .maps .map-header .select-wrapper {
-    background: #121a27 url(../maps/img/select-bg.png) no-repeat scroll 0 0;
-    height: 28px;
-    line-height: 28px;
-    overflow: hidden;
-    width: 190px;
-    display: inline-block;
-    margin: 7px;
+	background: #121a27 url(../img/select-bg.png) no-repeat scroll 0 0;
+	height: 28px;
+	line-height: 28px;
+	overflow: hidden;
+	width: 190px;
+	display: inline-block;
+	margin: 7px;
 }
 
 .maps .map-header .select-wrapper select {
-    background: transparent none repeat scroll 0 0;
-    border: 0 none;
-    border-radius: 0;
-    height: 28px;
-    padding-left: 5px;
-    width: 210px;
+	background: transparent none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 0;
+	height: 28px;
+	padding-left: 5px;
+	width: 210px;
 	color: #e5e5e5;
 	text-shadow: 1px 1px 1px #000;
 	-webkit-appearance: none;
@@ -197,19 +197,19 @@ img[usemap], map > area, map > area:active, map > area:focus {
 }
 
 .maps .map-options li label {
-	background-image:url(../maps/img/icons/checkbox-sprite.png);
+	background-image:url(../img/icons/checkbox-sprite.png);
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-    width: 85%;
+	width: 85%;
 	font-weight: normal;
 }
 
 .maps .map-wrapper{
-    height: 680px;
+	height: 680px;
 	width: 680px;
 	display: inline-block;
 	margin-left: 16px;
@@ -240,31 +240,31 @@ img[usemap], map > area, map > area:active, map > area:focus {
 
 .maps .copyrights{
 	display: none;
-    bottom: -8px;
-    font-size: 11px;
-    position: absolute;
-    right: 5px;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-    z-index: 1;
+	bottom: -8px;
+	font-size: 11px;
+	position: absolute;
+	right: 5px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	z-index: 1;
 }
 
 /********************************** @share-btn **********************************/
 
 .maps .btn-share{
-	background: url(../maps/img/btn-sprite.jpg) no-repeat 0 0;
+	background: url(../img/btn-sprite.jpg) no-repeat 0 0;
 	height: 28px;
 	width: 75px;
 	padding: 0;
 	border: 0;
-    margin: 7px 7px 7px 403px;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857;
-    text-align: center;
-    vertical-align: top;
-    white-space: nowrap;
+	margin: 7px 7px 7px 403px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857;
+	text-align: center;
+	vertical-align: top;
+	white-space: nowrap;
 }
 
 .maps .btn-share:hover{
@@ -280,7 +280,7 @@ img[usemap], map > area, map > area:active, map > area:focus {
 /********************************** @modal **********************************/
 
 .maps .share-modal .modal-dialog {
-    margin: 250px auto;
+	margin: 250px auto;
 }
 
 .maps .modal-backdrop, .modal-backdrop.fade.in{
@@ -289,9 +289,9 @@ img[usemap], map > area, map > area:active, map > area:focus {
 
 .maps .share-modal .modal-content {
 	background-color: #1c2b3d;
-    opacity: 0.95;
-    color: #e5e5e5;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	opacity: 0.95;
+	color: #e5e5e5;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .maps .share-modal .modal-header{
@@ -314,15 +314,15 @@ img[usemap], map > area, map > area:active, map > area:focus {
 
 .maps .share-modal .embed-input:focus{
 	border-color: #4b73a3;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.2);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.2);
 }
 
 .maps .share-modal .form-group {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .maps .share-modal .input-group {
-    width: 100%;
+	width: 100%;
 }
 
 .maps .share-modal .close{
@@ -335,6 +335,39 @@ img[usemap], map > area, map > area:active, map > area:focus {
 	background: #e5e5e5;
 }
 
+/********************************** @mediaqueries **********************************/
+
+@media (max-width: 955px) {
+
+	.maps .map-wrapper-outer{
+		width: 100%;
+		height: 100%;
+		border-radius: 0;
+		text-align: center;
+	}
+
+	.loading, .map-overlay, .map-header, .map-options, .map-wrapper{
+		text-align: left;
+	}
+
+	.map-header{
+		clear: both;
+	}
+
+	.maps .btn-share {
+		margin: 7px;
+		float: right;
+	}
+
+	.maps .map-options{
+		display: block;
+	}
+
+	.maps .map-wrapper {
+		margin: 0 0 13px;
+	}
+
+}
 
 /********************************** @iframe **********************************/
 
@@ -342,12 +375,18 @@ img[usemap], map > area, map > area:active, map > area:focus {
 	color: #e5e5e5;
 }
 
-.iframe, .iframe-nosidebar{
+.iframe,
+.iframe-nosidebar{
 	background-color: transparent;
 	padding: 3px 0 0 3px;
 }
 
-.iframe .navbar, .iframe .btn-share, .iframe-nosidebar .navbar, .iframe-nosidebar .btn-share{
+.iframe .navbar,
+.iframe-nosidebar .navbar{
+	display: none;
+}
+
+.iframe-nocodex .btn-share{
 	display: none;
 }
 
@@ -355,17 +394,20 @@ img[usemap], map > area, map > area:active, map > area:focus {
 	margin: 0;
 }
 
-.iframe-nosidebar .map-header, .iframe-nosidebar .map-options{
+.iframe-nosidebar .map-header,
+.iframe-nosidebar .map-options{
 	display: none!important;
 }
 
-.iframe .copyrights, .iframe-nosidebar .copyrights{
+.iframe-nocodex .copyrights,
+.iframe-nosidebar .copyrights{
 	display: block;
 }
 
-.iframe .input-group .form-control:last-child, .iframe-nosidebar .input-group .form-control:last-child{
-   border-bottom-left-radius: 4px;
-    border-top-left-radius: 4px;
+.iframe .input-group .form-control:last-child,
+.iframe-nosidebar .input-group .form-control:last-child{
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
 }
 
 .iframe-nosidebar .map-wrapper-outer{
@@ -389,116 +431,6 @@ img[usemap], map > area, map > area:active, map > area:focus {
 	box-shadow: none;
 }
 
-/********************************** @mediaqueries **********************************/
-
-@media (max-width: 1000px) {
-
-	.maps .map-wrapper-outer{
-		width: 100%;
-		height: 100%;
-		border-radius: 0;
-		text-align: center;
-	}
-
-	.loading, .map-overlay, .map-header, .map-options, .map-wrapper{
-		text-align: left;
-	}
-
-	.map-header{
-		clear: both;
-	}
-
-	.maps .btn-share {
-	    margin: 7px;
-	    float: right;
-	}
-
-	.maps .map-options{
-		display: block;
-	}
-
-	.maps .map-wrapper {
-	    margin: 0 0 13px;
-	}
-
-}
-
-/*********************************************************
-						Icons
-*********************************************************/
-
-.skills header{
-	text-align: center;
-}
-
-.skills .well{
-	margin-top: 50px;
-	text-align: center;
-	font-style: italic;
-    color: #888;
-}
-
-.skills .nav-tabs{
-	padding: 0 100px;
-	text-align:center;
-}
-
-.skills .nav-tabs > li{
-	float:none;
-	display:inline-block;
-	*display:inline;
-	zoom:1;
-}
-
-.skills .tab-wrapper{
-	margin-top: 50px;
-}
-
-.skills .tab-content{
-    padding: 30px 100px;
-}
-
-.skills .form-group{
-	display: inline-block;
-	width: 150px;
-	padding: 10px;
-}
-
-.skills .icon{
-	display: block;
-	margin: 0 auto 5px;
-}
-
-/********************************** @mediaqueries **********************************/
-
-@media (max-width: 1100px) {
-
-	.skills .tab-content{
-	    padding: 15px;
-	}
-
-	.skills .nav-tabs > li > a {
-	    border-radius: 4px;
-	    border: 1px solid #ddd;
-	    margin-bottom: 6px;
-	}
-
-	.skills .nav-tabs > li.active > a, .skills .nav-tabs > li.active > a:focus, .skills .nav-tabs > li.active > a:hover {
-	    border: 1px solid #ddd;
-	}
-
-	.skills .nav-tabs {
-	    padding: 0 15px 15px;
-	}
-
-}
-
-/*********************************************************
-					Character search
-*********************************************************/
-
-.char .wrapper-outer{
-	width: 800px;
-	height: 703px;
-	margin: 50px auto 0;
+.iframe .modal {
+    overflow-y: hidden;
 }

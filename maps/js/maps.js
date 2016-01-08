@@ -71,12 +71,16 @@ $('#secondary-map-selector').on('change', function(e) {
 });
 
 if (window.top!=window.self) {
-	if(getHashParams().sidebar){
-		if(getHashParams().sidebar == '1'){
-			document.body.className = document.body.className + " iframe";
+	console.log(document.referrer.split('/')[2]);
+	if(document.referrer.split('/')[2] != 'codex-network.com'){
+		if(getHashParams().sidebar){
+			if(getHashParams().sidebar == '1'){
+				document.body.className = document.body.className + " iframe iframe-nocodex";
+			}else{
+				document.body.className = document.body.className + " iframe-nosidebar iframe-nocodex";
+			}
 		}else{
-			//$('#map-wrapper').show().parentsUntil('body').andSelf().siblings().hide();
-			document.body.className = document.body.className + " iframe-nosidebar";
+			document.body.className = document.body.className + " iframe iframe-nocodex";
 		}
 	}else{
 		document.body.className = document.body.className + " iframe";
