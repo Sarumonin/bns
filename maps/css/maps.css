@@ -1,0 +1,441 @@
+/*********************************************************
+						General
+*********************************************************/
+
+body{
+	width: 100%;
+	background: 
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a, a:focus, img, button{
+	outline:none;
+}
+
+img[usemap], map > area, map > area:active, map > area:focus {
+	outline: none;
+	border:0;
+}
+
+.navbar-brand{
+	padding: 5px 0 5px 15px;
+}
+
+.navbar-default .navbar-text {
+	color: #333;
+}
+
+.navbar-text {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+/*********************************************************
+						Loading
+*********************************************************/
+
+.loading{
+	top: 45%;
+  	left: 25%;
+	width: 50%;
+	position: absolute;
+	z-index: 11;
+}
+
+.loading p{
+	color: #273b54;
+	font-size: 16px;
+	text-align: center;
+	text-shadow: none;
+}
+
+.lyn-anim{
+	width : 150px;
+	height : 64px;
+	background:url(../img/lyn-loading.png) no-repeat;
+	-webkit-transition: transform 1s ease-in-out;
+	transition: transform 1s ease-in-out;
+	-webkit-transform: translate(-125px);
+	-ms-transform: translate(-125px);
+	transform: translate(-125px);
+}
+
+.loading .progress {
+
+	background: #4f6793;
+	height: 10px;
+}
+.loading .bar {
+	background: #273b54;
+	width: 0;
+	height: 10px;
+	padding: 0;
+	margin: 0;
+	float: left;
+	clear: none;
+	-webkit-transition: width 1s ease-in-out;
+	transition: width 1s ease-in-out;
+}
+
+/*********************************************************
+						Maps
+*********************************************************/
+
+.maps .map-wrapper-outer{
+	width: 956px;
+	height: 736px;
+	margin: 50px auto 0;
+	box-shadow: 0 0 0 1px #36537b,
+				0 0 0 2px #446087,
+				0 0 0 3px rgba( 0, 0, 0, 0.3);
+	background: #273b54;
+	border-radius: 5px;
+	font-family: 'Droid Sans', 'Candara', Arial, sans-serif;
+	font-size: 12px;
+	color: #e5e5e5;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	position: relative;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+}
+
+.maps .map-overlay{
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	opacity: 0.8;
+	border-radius: 5px;
+}
+
+.maps .map-header{
+	height: 45px;
+}
+
+.maps .map-header label{
+	display: inline-block;
+	line-height: 42px;
+	margin: 0 7px 0 17px;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+.maps .map-header .select-wrapper {
+	height: 28px;
+	line-height: 28px;
+	overflow: hidden;
+	width: 190px;
+	display: inline-block;
+	margin: 7px;
+}
+
+.maps .map-header .select-wrapper select {
+	background: #121a27 url(../img/select-bg.png) no-repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 0;
+	height: 28px;
+	padding-left: 5px;
+	width: 210px;
+	color: #e5e5e5;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+}
+
+.maps .map-header .select-wrapper select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+
+.maps .map-header .select-wrapper select option{
+	padding: 5px;
+	border-bottom: 1px solid #27364b;
+	cursor: pointer;
+	background: #121a27;
+}
+
+.maps .map-options{
+	width: 245px;
+	display: inline-block;
+	padding-left: 17px;
+	vertical-align: top;
+}
+
+.maps .map-options li{
+	margin-bottom: 10px;
+}
+
+.maps .map-options li img{
+	margin-right: 5px;
+}
+
+.maps .map-options li input[type=checkbox] {
+	display: none
+}
+
+
+.maps .map-options li input[type=checkbox] + label {
+	height:17px; 
+	display:inline-block;
+	line-height:17px;
+	background-repeat:no-repeat;
+	background-position: 175px 0;
+	vertical-align: top;
+	cursor:pointer;
+
+}
+
+.maps .map-options li input[type=checkbox]:checked + label {
+	background-position: 175px -17px;
+}
+
+.maps .map-options li label {
+	background-image:url(../img/icons/checkbox-sprite.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 85%;
+	font-weight: normal;
+}
+
+.maps .map-wrapper{
+	height: 680px;
+	width: 680px;
+	display: inline-block;
+	margin-left: 16px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+}
+
+.maps .map-component-wrapper{
+	position: relative;
+}
+
+.maps .map-img{
+	height: 680px;
+	width: 680px;
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px #273b54,
+				0 0 0 2px #1c2842,
+				0 0 0 3px #22324b,
+				0 0 0 4px #263650;
+}
+
+.maps .map-component-wrapper area{
+	cursor: pointer;
+}
+
+.maps .copyrights{
+	display: none;
+	bottom: -8px;
+	font-size: 11px;
+	position: absolute;
+	right: 5px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	z-index: 1;
+}
+
+/********************************** @share-btn **********************************/
+
+.maps .btn-share{
+	background: url(../img/btn-sprite.jpg) no-repeat 0 0;
+	height: 28px;
+	width: 75px;
+	padding: 0;
+	border: 0;
+	margin: 7px 7px 7px 403px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857;
+	text-align: center;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.maps .btn-share:hover{
+	background-position: 0 -28px;
+	color: #e5e5e5;
+}
+
+.maps .btn-share:active{
+	background-position: 0 -56px;
+	outline: none;
+}
+
+/********************************** @modal **********************************/
+
+.maps .share-modal .modal-dialog {
+	margin: 250px auto;
+}
+
+.maps .modal-backdrop, .modal-backdrop.fade.in{
+	opacity: 0;
+}
+
+.maps .share-modal .modal-content {
+	background-color: #1c2b3d;
+	opacity: 0.95;
+	color: #e5e5e5;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.maps .share-modal .modal-header{
+	border-bottom: 1px solid #283d57;
+}
+
+.maps .share-modal .modal-footer{
+	border-top: 1px solid #283d57;
+}
+
+.maps .share-modal .main-label{
+	display: block;
+}
+
+.maps .share-modal .embed-input{
+	margin: 5px 0 10px 0;
+	color: #283d57;
+	background: #e5e5e5; 
+}
+
+.maps .share-modal .embed-input:focus{
+	border-color: #4b73a3;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.2);
+}
+
+.maps .share-modal .form-group {
+	margin-bottom: 0;
+}
+
+.maps .share-modal .input-group {
+	width: 100%;
+}
+
+.maps .share-modal .close{
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+}
+
+.maps .share-modal .close-btn{
+	color: #283d57;
+	background: #e5e5e5;
+}
+
+/********************************** @mediaqueries **********************************/
+
+@media (max-width: 955px) {
+
+	.maps .map-wrapper-outer{
+		width: 100%;
+		height: 100%;
+		border-radius: 0;
+		text-align: center;
+	}
+
+	.loading, .map-overlay, .map-header, .map-options, .map-wrapper{
+		text-align: left;
+	}
+
+	.map-header{
+		clear: both;
+	}
+
+	.maps .btn-share {
+		margin: 7px;
+		float: right;
+	}
+
+	.maps .map-options{
+		display: block;
+	}
+
+	.maps .map-wrapper {
+		margin: 0 0 13px;
+	}
+
+}
+
+/********************************** @iframe **********************************/
+
+.copyrights a{
+	color: #e5e5e5;
+}
+
+.iframe,
+.iframe-nosidebar{
+	background-color: transparent;
+	padding: 3px 0 0 3px;
+}
+
+.iframe .navbar,
+.iframe-nosidebar .navbar{
+	display: none;
+}
+
+.iframe-nocodex .btn-share{
+	display: none;
+}
+
+.iframe .map-wrapper-outer{
+	margin: 0;
+}
+
+.iframe-nosidebar .map-header,
+.iframe-nosidebar .map-options{
+	display: none!important;
+}
+
+.iframe-nocodex .copyrights,
+.iframe-nosidebar .copyrights{
+	display: block;
+}
+
+.iframe .input-group .form-control:last-child,
+.iframe-nosidebar .input-group .form-control:last-child{
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.iframe-nosidebar .map-wrapper-outer{
+	width: auto;
+	height: auto;
+	margin: 0;
+	box-shadow: none;
+	background: transparent;
+	border-radius: 0;
+	font-family: 'Droid Sans', 'Candara', Arial, sans-serif;
+	font-size: 12px;
+	color: #e5e5e5;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.iframe-nosidebar .map-wrapper{
+	margin: 0;
+}
+
+.iframe-nosidebar .map-img{
+	box-shadow: none;
+}
+
+.iframe .modal {
+    overflow-y: hidden;
+}

@@ -1,0 +1,1433 @@
+{
+    "maps": [
+        {
+            "id": "1",
+            "name": "World",
+            "map": {
+                "mapurl": "1",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-0",
+                        "coords": "150,661,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-1",
+                        "coords": "245,600,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2",
+                        "coords": "263,518,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3",
+                        "coords": "538,437,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1-0",
+            "name": "Heaven's Reach",
+            "map": {
+                "mapurl": "0"
+            }
+        },
+        {
+            "id": "1-1",
+            "name": "Viridian Coast",
+            "map": {
+                "mapurl": "1-1",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-1-1",
+                        "coords": "190,408,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-1-2",
+                        "coords": "245,298,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-1-3",
+                        "coords": "418,160,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-1-4",
+                        "coords": "513,360,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-1-5",
+                        "coords": "630,544,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1-1-1",
+            "name": "Everdusk",
+            "map": {
+                "mapurl": "1-1-1",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-1-1-1",
+                        "coords": "205,514,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-1-2",
+                        "coords": "648,272,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 347,
+                            "left": 172
+                        },
+                        {
+                            "top": 310,
+                            "left": 278
+                        },
+                        {
+                            "top": 395,
+                            "left": 468
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 173,
+                            "left": 394
+                        },
+                        {
+                            "top": 255,
+                            "left": 560
+                        },
+                        {
+                            "top": 324,
+                            "left": 567
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-1-1-1",
+            "name": "Bamboo Village",
+            "map": {
+                "mapurl": "1-1-1-1"
+            }
+        },
+        {
+            "id": "1-1-2",
+            "name": "Gloomdross Forest",
+            "map": {
+                "mapurl": "1-1-2",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-1-1",
+                        "coords": "340,482,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-1",
+                        "coords": "319,42,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-1-3",
+                        "coords": "573,110,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 184,
+                            "left": 252
+                        },
+                        {
+                            "top": 138,
+                            "left": 321
+                        },
+                        {
+                            "top": 95,
+                            "left": 281
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 319,
+                            "left": 418
+                        },
+                        {
+                            "top": 381,
+                            "left": 437
+                        },
+                        {
+                            "top": 152,
+                            "left": 225
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-1-3",
+            "name": "Lily Gull",
+            "map": {
+                "mapurl": "1-1-3",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-1-2",
+                        "coords": "88,525,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-1-3-1",
+                        "coords": "233,430,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-1-4",
+                        "coords": "371,591,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 320,
+                            "left": 406
+                        },
+                        {
+                            "top": 307,
+                            "left": 433
+                        },
+                        {
+                            "top": 374,
+                            "left": 495
+                        },
+                        {
+                            "top": 364,
+                            "left": 527
+                        },
+                        {
+                            "top": 351,
+                            "left": 535
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 334,
+                            "left": 379
+                        },
+                        {
+                            "top": 309,
+                            "left": 401
+                        },
+                        {
+                            "top": 318,
+                            "left": 468
+                        },
+                        {
+                            "top": 358,
+                            "left": 427
+                        },
+                        {
+                            "top": 391,
+                            "left": 431
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-1-3-1",
+            "name": "Jadestone Village",
+            "map": {
+                "mapurl": "1-1-3-1"
+            }
+        },
+        {
+            "id": "1-1-4",
+            "name": "Songshu Isle",
+            "map": {
+                "mapurl": "1-1-4",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-1-3",
+                        "coords": "89,23,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-1-4-1",
+                        "coords": "353,184,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-1-5",
+                        "coords": "506,493,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 321,
+                            "left": 358
+                        },
+                        {
+                            "top": 293,
+                            "left": 414
+                        },
+                        {
+                            "top": 288,
+                            "left": 402
+                        },
+                        {
+                            "top": 207,
+                            "left": 271
+                        },
+                        {
+                            "top": 154,
+                            "left": 274
+                        },
+                        {
+                            "top": 155,
+                            "left": 264
+                        },
+                        {
+                            "top": 118,
+                            "left": 195
+                        },
+                        {
+                            "top": 97,
+                            "left": 199
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 286,
+                            "left": 400
+                        },
+                        {
+                            "top": 290,
+                            "left": 388
+                        },
+                        {
+                            "top": 275,
+                            "left": 372
+                        },
+                        {
+                            "top": 273,
+                            "left": 353
+                        },
+                        {
+                            "top": 204,
+                            "left": 182
+                        },
+                        {
+                            "top": 165,
+                            "left": 206
+                        },
+                        {
+                            "top": 134,
+                            "left": 250
+                        },
+                        {
+                            "top": 117,
+                            "left": 265
+                        },
+                        {
+                            "top": 96,
+                            "left": 287
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-1-4-1",
+            "name": "Stillbrook Monastery",
+            "map": {
+                "mapurl": "1-1-4-1"
+            }
+        },
+        {
+            "id": "1-1-5",
+            "name": "Blackram Narrows",
+            "map": {
+                "mapurl": "1-1-5"
+            }
+        },
+        {
+            "id": "1-2",
+            "name": "The Cinderlands",
+            "map": {
+                "mapurl": "1-2",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-2-1",
+                        "coords": "153,472,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-2",
+                        "coords": "413,428,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-3",
+                        "coords": "303,182,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-4",
+                        "coords": "598,198,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1-2-1",
+            "name": "Tomun Range",
+            "map": {
+                "mapurl": "1-2-1",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-1-2",
+                        "coords": "409,611,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-1-1",
+                        "coords": "409,385,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-2",
+                        "coords": "665,362,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 483,
+                            "left": 250
+                        },
+                        {
+                            "top": 486,
+                            "left": 381
+                        },
+                        {
+                            "top": 446,
+                            "left": 403
+                        },
+                        {
+                            "top": 437,
+                            "left": 460
+                        },
+                        {
+                            "top": 406,
+                            "left": 435
+                        },
+                        {
+                            "top": 408,
+                            "left": 515
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 573,
+                            "left": 182
+                        },
+                        {
+                            "top": 541,
+                            "left": 113
+                        },
+                        {
+                            "top": 570,
+                            "left": 213
+                        },
+                        {
+                            "top": 560,
+                            "left": 231
+                        },
+                        {
+                            "top": 481,
+                            "left": 162
+                        },
+                        {
+                            "top": 526,
+                            "left": 235
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-2-1-1",
+            "name": "Oakshade Village",
+            "map": {
+                "mapurl": "1-2-1-1"
+            }
+        },
+        {
+            "id": "1-2-2",
+            "name": "The Scorching Sands",
+            "map": {
+                "mapurl": "1-2-2",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-2-1",
+                        "coords": "79,462,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-2-1",
+                        "coords": "254,593,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-2-2",
+                        "coords": "440,261,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-3",
+                        "coords": "301,104,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-4",
+                        "coords": "632,55,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 583,
+                            "left": 302
+                        },
+                        {
+                            "top": 585,
+                            "left": 377
+                        },
+                        {
+                            "top": 435,
+                            "left": 448
+                        },
+                        {
+                            "top": 414,
+                            "left": 460
+                        },
+                        {
+                            "top": 390,
+                            "left": 453
+                        },
+                        {
+                            "top": 228,
+                            "left": 523
+                        },
+                        {
+                            "top": 190,
+                            "left": 494
+                        },
+                        {
+                            "top": 174,
+                            "left": 420
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 523,
+                            "left": 323
+                        },
+                        {
+                            "top": 511,
+                            "left": 391
+                        },
+                        {
+                            "top": 476,
+                            "left": 517
+                        },
+                        {
+                            "top": 439,
+                            "left": 492
+                        },
+                        {
+                            "top": 317,
+                            "left": 491
+                        },
+                        {
+                            "top": 316,
+                            "left": 430
+                        },
+                        {
+                            "top": 265,
+                            "left": 486
+                        },
+                        {
+                            "top": 327,
+                            "left": 238
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-2-2-1",
+            "name": "Sandstone Refuge",
+            "map": {
+                "mapurl": "1-2-2-1"
+            }
+        },
+        {
+            "id": "1-2-2-2",
+            "name": "Yehara's Mirage",
+            "map": {
+                "mapurl": "1-2-2-2"
+            }
+        },
+        {
+            "id": "1-2-3",
+            "name": "Spirestone Canyons",
+            "map": {
+                "mapurl": "1-2-3",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-2-2",
+                        "coords": "514,661,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-3-1",
+                        "coords": "251,514,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-3-2",
+                        "coords": "418,124,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 475,
+                            "left": 382
+                        },
+                        {
+                            "top": 467,
+                            "left": 423
+                        },
+                        {
+                            "top": 469,
+                            "left": 471
+                        },
+                        {
+                            "top": 345,
+                            "left": 369
+                        },
+                        {
+                            "top": 248,
+                            "left": 448
+                        },
+                        {
+                            "top": 95,
+                            "left": 198
+                        },
+                        {
+                            "top": 342,
+                            "left": 189
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 528,
+                            "left": 384
+                        },
+                        {
+                            "top": 545,
+                            "left": 431
+                        },
+                        {
+                            "top": 262,
+                            "left": 505
+                        },
+                        {
+                            "top": 268,
+                            "left": 546
+                        },
+                        {
+                            "top": 193,
+                            "left": 548
+                        },
+                        {
+                            "top": 308,
+                            "left": 165
+                        },
+                        {
+                            "top": 318,
+                            "left": 164
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-2-3-1",
+            "name": "The Great Kiln",
+            "map": {
+                "mapurl": "1-2-3-1"
+            }
+        },
+        {
+            "id": "1-2-3-2",
+            "name": "Clear Sky Village",
+            "map": {
+                "mapurl": "1-2-3-2"
+            }
+        },
+        {
+            "id": "1-2-4",
+            "name": "Razorwing Ravine",
+            "map": {
+                "mapurl": "1-2-4",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-2-2",
+                        "coords": "88,585,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-4-1",
+                        "coords": "134,415,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-2-4-2",
+                        "coords": "168,226,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 564,
+                            "left": 167
+                        },
+                        {
+                            "top": 542,
+                            "left": 308
+                        },
+                        {
+                            "top": 527,
+                            "left": 317
+                        },
+                        {
+                            "top": 512,
+                            "left": 159
+                        },
+                        {
+                            "top": 354,
+                            "left": 434
+                        },
+                        {
+                            "top": 234,
+                            "left": 447
+                        },
+                        {
+                            "top": 150,
+                            "left": 461
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 508,
+                            "left": 226
+                        },
+                        {
+                            "top": 473,
+                            "left": 290
+                        },
+                        {
+                            "top": 449,
+                            "left": 266
+                        },
+                        {
+                            "top": 386,
+                            "left": 251
+                        },
+                        {
+                            "top": 310,
+                            "left": 443
+                        },
+                        {
+                            "top": 314,
+                            "left": 483
+                        },
+                        {
+                            "top": 208,
+                            "left": 489
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-2-4-1",
+            "name": "Jaofang Village",
+            "map": {
+                "mapurl": "1-2-4-1"
+            }
+        },
+        {
+            "id": "1-2-4-2",
+            "name": "Blindeye Bazaar",
+            "map": {
+                "mapurl": "1-2-4-2"
+            }
+        },
+        {
+            "id": "1-3",
+            "name": "Moonwater Plains",
+            "map": {
+                "mapurl": "1-3",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-3-5",
+                        "coords": "561,163,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-1",
+                        "coords": "398,330,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-2",
+                        "coords": "245,246,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-2",
+                        "coords": "104,242,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-3",
+                        "coords": "249,495,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-4",
+                        "coords": "436,478,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-4",
+                        "coords": "555,533,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-5",
+                        "coords": "576,249,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1-3-1",
+            "name": "Lycandi Foothills",
+            "map": {
+                "mapurl": "1-3-1",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-3-5",
+                        "coords": "553,50,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-1-1",
+                        "coords": "566,343,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-2",
+                        "coords": "86,210,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-4",
+                        "coords": "501,612,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 156,
+                            "left": 359
+                        },
+                        {
+                            "top": 170,
+                            "left": 303
+                        },
+                        {
+                            "top": 244,
+                            "left": 466
+                        },
+                        {
+                            "top": 244,
+                            "left": 281
+                        },
+                        {
+                            "top": 281,
+                            "left": 228
+                        },
+                        {
+                            "top": 306,
+                            "left": 451
+                        },
+                        {
+                            "top": 444,
+                            "left": 306
+                        },
+                        {
+                            "top": 458,
+                            "left": 274
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 136,
+                            "left": 537
+                        },
+                        {
+                            "top": 179,
+                            "left": 440
+                        },
+                        {
+                            "top": 85,
+                            "left": 290
+                        },
+                        {
+                            "top": 138,
+                            "left": 244
+                        },
+                        {
+                            "top": 312,
+                            "left": 336
+                        },
+                        {
+                            "top": 310,
+                            "left": 444
+                        },
+                        {
+                            "top": 502,
+                            "left": 314
+                        },
+                        {
+                            "top": 542,
+                            "left": 298
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-3-1-1",
+            "name": "Greenhollow",
+            "map": {
+                "mapurl": "1-3-1-1"
+            }
+        },
+        {
+            "id": "1-3-2",
+            "name": "Hogshead Pastures",
+            "map": {
+                "mapurl": "1-3-2",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-3-1",
+                        "coords": "668,371,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-2-1",
+                        "coords": "491,195,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-3",
+                        "coords": "504,624,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 222,
+                            "left": 528
+                        },
+                        {
+                            "top": 267,
+                            "left": 523
+                        },
+                        {
+                            "top": 306,
+                            "left": 553
+                        },
+                        {
+                            "top": 276,
+                            "left": 330
+                        },
+                        {
+                            "top": 306,
+                            "left": 328
+                        },
+                        {
+                            "top": 321,
+                            "left": 334
+                        },
+                        {
+                            "top": 351,
+                            "left": 315
+                        },
+                        {
+                            "top": 387,
+                            "left": 220
+                        },
+                        {
+                            "top": 360,
+                            "left": 205
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 179,
+                            "left": 586
+                        },
+                        {
+                            "top": 294,
+                            "left": 514
+                        },
+                        {
+                            "top": 380,
+                            "left": 554
+                        },
+                        {
+                            "top": 219,
+                            "left": 292
+                        },
+                        {
+                            "top": 251,
+                            "left": 278
+                        },
+                        {
+                            "top": 271,
+                            "left": 318
+                        },
+                        {
+                            "top": 309,
+                            "left": 370
+                        },
+                        {
+                            "top": 387,
+                            "left": 270
+                        },
+                        {
+                            "top": 413,
+                            "left": 278
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-3-2-1",
+            "name": "Hogshead Hamlet",
+            "map": {
+                "mapurl": "1-3-2-1"
+            }
+        },
+        {
+            "id": "1-3-3",
+            "name": "Sapphire Basin",
+            "map": {
+                "mapurl": "1-3-3",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-3-2",
+                        "coords": "249,31,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-3-1",
+                        "coords": "328,363,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-4",
+                        "coords": "636,362,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 271,
+                            "left": 214
+                        },
+                        {
+                            "top": 284,
+                            "left": 204
+                        },
+                        {
+                            "top": 381,
+                            "left": 174
+                        },
+                        {
+                            "top": 463,
+                            "left": 212
+                        },
+                        {
+                            "top": 460,
+                            "left": 275
+                        },
+                        {
+                            "top": 435,
+                            "left": 448
+                        },
+                        {
+                            "top": 382,
+                            "left": 488
+                        },
+                        {
+                            "top": 343,
+                            "left": 532
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 184,
+                            "left": 168
+                        },
+                        {
+                            "top": 220,
+                            "left": 172
+                        },
+                        {
+                            "top": 511,
+                            "left": 218
+                        },
+                        {
+                            "top": 542,
+                            "left": 199
+                        },
+                        {
+                            "top": 523,
+                            "left": 280
+                        },
+                        {
+                            "top": 479,
+                            "left": 382
+                        },
+                        {
+                            "top": 459,
+                            "left": 459
+                        },
+                        {
+                            "top": 537,
+                            "left": 553
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-3-3-1",
+            "name": "Fishbelly Pub",
+            "map": {
+                "mapurl": "1-3-3-1"
+            }
+        },
+        {
+            "id": "1-3-4",
+            "name": "The Highland Necropolis",
+            "map": {
+                "mapurl": "1-3-4",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-3-1",
+                        "coords": "229,144,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-3",
+                        "coords": "76,331,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 275,
+                            "left": 180
+                        },
+                        {
+                            "top": 298,
+                            "left": 147
+                        },
+                        {
+                            "top": 316,
+                            "left": 198
+                        },
+                        {
+                            "top": 355,
+                            "left": 203
+                        },
+                        {
+                            "top": 309,
+                            "left": 264
+                        },
+                        {
+                            "top": 483,
+                            "left": 538
+                        },
+                        {
+                            "top": 462,
+                            "left": 554
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 211,
+                            "left": 168
+                        },
+                        {
+                            "top": 280,
+                            "left": 290
+                        },
+                        {
+                            "top": 320,
+                            "left": 289
+                        },
+                        {
+                            "top": 349,
+                            "left": 292
+                        },
+                        {
+                            "top": 403,
+                            "left": 276
+                        },
+                        {
+                            "top": 488,
+                            "left": 443
+                        },
+                        {
+                            "top": 472,
+                            "left": 462
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-3-5",
+            "name": "Misty Woods",
+            "map": {
+                "mapurl": "1-3-5",
+                "linksToOtherMaps": [
+                    {
+                        "href": "1-3-5-1",
+                        "coords": "263,237,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    },
+                    {
+                        "href": "1-3-1",
+                        "coords": "153,229,12",
+                        "shape": "circle",
+                        "rel": "map"
+                    }
+                ],
+                "wells": {
+                    "coords": [
+                        {
+                            "top": 322,
+                            "left": 265
+                        },
+                        {
+                            "top": 320,
+                            "left": 323
+                        },
+                        {
+                            "top": 331,
+                            "left": 361
+                        },
+                        {
+                            "top": 399,
+                            "left": 205
+                        },
+                        {
+                            "top": 427,
+                            "left": 211
+                        },
+                        {
+                            "top": 474,
+                            "left": 299
+                        },
+                        {
+                            "top": 538,
+                            "left": 334
+                        },
+                        {
+                            "top": 598,
+                            "left": 317
+                        }
+                    ]
+                },
+                "quartz": {
+                    "coords": [
+                        {
+                            "top": 389,
+                            "left": 336
+                        },
+                        {
+                            "top": 420,
+                            "left": 241
+                        },
+                        {
+                            "top": 442,
+                            "left": 274
+                        },
+                        {
+                            "top": 515,
+                            "left": 199
+                        },
+                        {
+                            "top": 531,
+                            "left": 237
+                        },
+                        {
+                            "top": 562,
+                            "left": 263
+                        },
+                        {
+                            "top": 600,
+                            "left": 348
+                        },
+                        {
+                            "top": 551,
+                            "left": 371
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "1-3-5-1",
+            "name": "Brightsone Village",
+            "map": {
+                "mapurl": "1-3-5-1"
+            }
+        }
+    ]
+}
