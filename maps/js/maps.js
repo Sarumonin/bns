@@ -71,7 +71,6 @@ $('#secondary-map-selector').on('change', function(e) {
 });
 
 if (window.top!=window.self) {
-	console.log(document.referrer.split('/')[2]);
 	if(document.referrer.split('/')[2] != 'codex-network.com'){
 		if(getHashParams().sidebar){
 			if(getHashParams().sidebar == '1'){
