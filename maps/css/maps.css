@@ -4,6 +4,7 @@
 
 body{
 	width: 100%;
+	background: 
 }
 
 ul{
@@ -131,7 +132,6 @@ img[usemap], map > area, map > area:active, map > area:focus {
 }
 
 .maps .map-header .select-wrapper {
-	background: #121a27 url(../img/select-bg.png) no-repeat scroll 0 0;
 	height: 28px;
 	line-height: 28px;
 	overflow: hidden;
@@ -141,7 +141,7 @@ img[usemap], map > area, map > area:active, map > area:focus {
 }
 
 .maps .map-header .select-wrapper select {
-	background: transparent none repeat scroll 0 0;
+	background: #121a27 url(../img/select-bg.png) no-repeat scroll 0 0;
 	border: 0 none;
 	border-radius: 0;
 	height: 28px;
@@ -155,10 +155,15 @@ img[usemap], map > area, map > area:active, map > area:focus {
 	cursor: pointer;
 }
 
+.maps .map-header .select-wrapper select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+
 .maps .map-header .select-wrapper select option{
 	padding: 5px;
 	border-bottom: 1px solid #27364b;
 	cursor: pointer;
+	background: #121a27;
 }
 
 .maps .map-options{
