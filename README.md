@@ -1,2 +1,2 @@
 # BnS
-BnS Codex Tools for http://codex-network.com/
+Eterna Gaming Tools for Blade and Soul!
