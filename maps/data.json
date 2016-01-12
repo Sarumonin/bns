@@ -23,13 +23,16 @@
                         "coords": "263,518,12",
                         "shape": "circle",
                         "rel": "map"
-                    },
+                    }
+                    ]
                      "fquests": {
                     "coords": [
                         {
                             "top": 615,
                             "left": 773
-                        },
+                        }
+                    ]
+                }
                     {
                         "href": "1-3",
                         "coords": "538,437,12",
