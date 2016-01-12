@@ -456,6 +456,14 @@
                         "rel": "map"
                     }
                 ],
+                     "fquests": {
+                    "coords": [
+                        {
+                            "top": 415,
+                            "left": 253
+                        }
+                    ]
+                },
                 "wells": {
                     "coords": [
                         {
@@ -672,14 +680,7 @@
                     }
                 ],
                 
-                     "fquests": {
-                    "coords": [
-                        {
-                            "top": 415,
-                            "left": 253
-                        }
-                    ]
-                },
+                  
                 "wells": {
                     "coords": [
                         {
